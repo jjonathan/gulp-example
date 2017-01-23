@@ -1,9 +1,9 @@
 # Gulp-Example
 My default use of gulp
 
-### Explanation
+## Explanation
 
-## My devDependencies in the package.json:
+### My devDependencies in the package.json:
 
 ```json
 "devDependencies": {
@@ -24,7 +24,7 @@ My default use of gulp
   }
 ```
 
-## My gulpfile.js
+### My gulpfile.js
 
 In the gulpfile.js is only called the base packages: gulp, plugins and pump (I like to use :D).
 Is created the options variable, where is all the options as paths and others packages.
@@ -54,7 +54,7 @@ var options = {
 };
 ```
 
-## In the tasks folder, there is the default.js where is all the default tasks.
+### In tasks/default.js where is all the default tasks.
 
 ```javascript
 module.exports = function (gulp, options, plugins) {
@@ -67,7 +67,7 @@ module.exports = function (gulp, options, plugins) {
 
 ```
 
-## Below there is a task exemple:
+### Below there is a task exemple(tasks/styleTask.js):
 
 ```javascript
 module.exports = function(gulp, options, plugins){
