@@ -16,7 +16,7 @@ My default use of gulp
     "gulp-live-server": "0.0.30",
     "gulp-load-plugins": "^1.4.0",
     "gulp-order": "^1.1.1",
-    "gulp-uglify": "^2.0.0",
+    "gulp-uglify": "^2.0.0",m
     "jshint": "^2.9.4",
     "jshint-stylish": "^2.2.1",
     "load-gulp-tasks": "^0.1.0",
